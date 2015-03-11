@@ -1,0 +1,100 @@
+
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: $screen-xs-max) {
+	.jumbotron {
+		padding: 0;
+		.mobile {
+			background-position: 50% -20%;
+		}
+		h1 { 
+			margin-bottom: 0;
+		}
+	}
+	.jumbotron .jumboText {
+		text-align: center;
+	}
+	.fixer {
+		padding: 0;
+	}
+	.second-nav .nav a {
+		border-radius: 5px 5px 5px 5px;
+		margin: 2px 0;
+		border: solid 2px #333333;
+	}
+	.home-featurette {
+		min-height: 450px;
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+	.secondary-carousel {
+		// min-height: 400px;
+	}
+}
+@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	.navbar-collapse {
+		float: none;
+	}
+	.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+		float: left;
+		margin: 15px 0 15px 15px;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+		font-size: 14px;
+		padding: 12px 15px;
+	}
+	.home-featurette {
+		.mytbh-graphic {
+			padding-top: 2em;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+}
+@media screen and (min-width: $screen-md-min) {
+	.main-nav .nav li {
+		font-size: 1em;
+	}
+
+}
+@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+	.navbar-collapse {
+		float: right;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+		font-size: 16px;
+		padding: 25px 12px;
+	}
+	.navbar > .container .navbar-brand,
+	.navbar > .container-fluid .navbar-brand {
+		font-size: 28px;
+		float: left;
+		margin: 15px 0;
+		width: auto;	
+	}
+	.navbar-inverse .navbar-brand .fa-stack {
+		font-size: 22px;
+	}
+	.navbar-nav {
+		float: left;
+	}
+	.home-featurette {
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+}
+@media screen and (min-width: $screen-lg-min) {
+	.home-featurette {
+		ul li {
+			font-size: 1.5em;
+			line-height: 2em;
+		}
+	}
+
+}
